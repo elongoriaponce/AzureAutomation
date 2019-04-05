@@ -1,0 +1,24 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "rgName": {
+      "value": "ResourceGroupName"
+    },
+    "rgLocation": {
+      "value": "East Us 2"
+    },
+    "tagCostCenter": {
+      "value": "1234-001"
+    },
+    "tagOwner": {
+      "value": "MikeE"
+    },
+    "tagDMZ": {
+      "value": "No"
+    },
+    "tagDepartment": {
+      "value": "Corporate"
+    }
+  }
+}
